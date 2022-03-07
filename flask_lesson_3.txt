@@ -1,0 +1,36 @@
+Custom Error Pages and Version Control - Flask Fridays #3
+ssh key
+C:\Users\stone\OneDrive\Programming\PythonStuff
+cd /c/Users/stone/OneDrive/Programming/PythonStuff/
+mkdir
+.ssh
+ssh-keygen.exe
+give file path to .ssh and file name for the actual ssh file
+
+
+C:\Users\stone\OneDrive\Programming\PythonStuff\Flasker
+cd /c/Users/stone/OneDrive/Programming/PythonStuff/flasker
+
+# make ignore file for git
+# the dot means its hidden
+touch .gitignore
+
+# these are the git line commands to push a project to github
+git config --global user.name "Your Name"
+git config --global user.email "you@youraddress.com"
+git config --global push.default matching
+git config --global alias.co checkout
+git init
+
+
+# these git line will upload project to github
+git add .
+git commit -am 'initial commit'
+
+
+
+# …or push an existing repository from the command line
+
+git remote add origin https://github.com/waititworks/flasker.git
+git branch -M main
+git push -u origin main
