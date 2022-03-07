@@ -1,0 +1,29 @@
+C:\Users\stone\OneDrive\Programming\PythonStuff
+
+cd /c/users/stone/onedrive/programming/pythonstuff/flasker/
+
+python -m venv Virtual_Environment_Goes_Here
+
+source Virtual_Environment/scripts/activate
+
+pip install flask
+
+touch name_goes_here.py
+
+<write the file>
+
+
+export FLASK_ENV=development
+export FLASK_APP=name_goes_here.py
+flask run
+_________________________________________________________
+
+pwd - lists path
+mkdir - makes directory
+cd - changes directory
+_________________________________________________________
+python -m venv virt
+source virt/Scripts/activate
+
+
+
